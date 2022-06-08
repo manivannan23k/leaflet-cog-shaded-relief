@@ -1,0 +1,25 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Mani K",
+  "license": "ISC",
+  "dependencies": {
+    "geotiff": "^2.0.5",
+    "jquery": "^3.5.1",
+    "leaflet": "^1.8.0",
+    "proj4": "^2.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
